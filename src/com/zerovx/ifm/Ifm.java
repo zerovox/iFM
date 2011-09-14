@@ -29,8 +29,7 @@ public class Ifm {
 		
 		
 		Caller.getInstance().setUserAgent("iFM");
-		Session session = Authenticator.getMobileSession(user, password, key, secret);
-		
+		Session session = Authenticator.getMobileSession(user, password, key, secret);		
 		File file = new File(itunesDir);
 		if (file.exists()){
 			DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
